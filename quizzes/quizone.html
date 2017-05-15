@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>The Happiness Project</title>
+    <link rel="stylesheet" type ="text/css" href="../styles/quiz.css">
+    <link rel="stylesheet" type ="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type ="text/css" href="../styles/nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+    
+<nav>
+        <ul class="nav_ul">
+            <img src="../logo.png">
+            <li class="nav_li"><a href="../index.html">Home</a></li>
+            <li class="nav_li"><a href="../about.html">About</a></li>
+            <li class="nav_li"><a href="../explore.html">Explore</a></li>
+            <li class="nav_li"><a href="../quizzes.html">Quizzes</a></li>
+            <li class="nav_li"><a href="../inspiration.html">Inspiration</a></li>
+            <li class="nav_li"><a href="http://www.wix.com/ecommerce/website">Shop</a></li>
+        </ul>
+    </nav>
+ 
+<div id="grid">
+    <img src="../images/pencil.png" id="quizIntro">
+    <input type="submit" value="LET'S START!" class="submitButton" id="start" onclick="displayQuiz()">
+</div>
+<div id="quizForm" class="centered grid__col--8">
+        <div class="quiz">
+        <div>
+            <form name="quizForm" id="qArray" onsubmit="return submitAnswers()">
+            <div id="q1" class="question" required>
+              <h1 class="questionHeader">Question 1: </h1>
+                <p class="q">Where would you choose to live?</p><br/>
+<img src="../images/sea.jpg" class="questionImage">
+                <input type="radio" name="q1" value="Parameter" id="q1a"><label>Near the sea</label><br/>
+                <input type="radio" name="q1" value="Object" id="q1b"><label>On the hill</label><br/>
+                <input type="radio" name="q1" value="Variable" id="q1c"><label>In a big city</label><br/>
+                <input type="radio" name="q1" value="Function" id="q1d"><label>On a farm</label><br/>
+            </div>
+
+            <div id="q2" class="question" required>
+              <h1 class="questionHeader">Question 2: </h1>
+                <p class="q">What are the names of the instructions “hero.moveDown()”, “hero.moveLeft()” etc.?</p><br/>
+                <img src="_assets/images/pro/q2_HeaderImage.PNG" class="questionImage">
+                <input type="radio" name="q2" value="Parameter" id="q2a"><label>Parameter</label><br/>
+                <input type="radio" name="q2" value="Object" id="q2b"><label>Object</label><br/>
+                <input type="radio" name="q2" value="Variable" id="q2c"><label>Variable</label><br/>
+                <input type="radio" name="q2" value="Function" id="q2d"><label>Function</label><br/>
+            </div>
+
+
+            <div id="q3" class="question">
+               <h1 class="questionHeader">Question 3: </h1>
+                  <img src="_assets/images/pro/q3_HeaderImage.PNG" class="questionImage">
+                <p class="q">animal, favNum, and pi are examples of what?</p><br/>
+                 <input type="radio" name="q3" value="Variables" id="q3a"><label>Variables</label><br/>
+                <input type="radio" name="q3" value="Functions" id="q3b"><label>Functions</label><br/>
+                <input type="radio" name="q3" value="Objects" id="q3c"><label>Objects</label><br/>
+                <input type="radio" name="q3" value="Classes" id="q3d"><label>Classes</label><br/>
+            </div>
+
+            <div id="q4" class="question">
+              <h1 class="questionHeader">Question 4: </h1>
+                <p class="q">What are the 2 possible values a Boolean can take on?
+</p><br/>
+                 <input type="radio" name="q4" value="True or False" id="q4a"><label>True or False</label><br/>
+                <input type="radio" name="q4" value="Yes or No" id="q4b"><label>Yes or No</label><br/>
+                <input type="radio" name="q4" value="1 or 0" id="q4c"><label>1 or 0 </label><br/>
+                <input type="radio" name="q4" value="Right or Wrong" id="q4d"><label>Right or Wrong</label><br/>
+            </div>
+
+            <div id="q5" class="question">
+              <h1 class="questionHeader">Question 5: </h1>
+                <p class="q">What is the value of “a”?</p><br/>
+                  <img src="_assets/images/pro/q5_HeaderImage.PNG" class="questionImage">
+                <input type="text" name="q5" value="" id="q5a"><br/>
+                
+            </div>
+
+            <div id="q6" class="question">
+              <h1 class="questionHeader">Question 6: </h1>
+                <p class="q">What is the output?</p><br/>
+                 <img src="_assets/images/pro/q6_HeaderImage.PNG" class="questionImage">
+                <input type="text" name="q6" value="" id="q6a"><br/>
+            </div>
+
+            <div id="q7" class="question">
+              <h1 class="questionHeader">Question 7: </h1>
+                <p class="q">Study the code above. What is the value of “x”?</p><br/>
+                 <img src="_assets/images/pro/q7_HeaderImage.PNG" class="questionImage">
+                 <input type="text" name="q7" value="" id="q7a"><br/>
+            </div>
+
+            <div id="q8" class="question">
+              <h1 class="questionHeader">Question 8: </h1>
+                <p class="q">Study the code above. What is the value of “x”?</p><br/>
+                  <img src="_assets/images/pro/q8_HeaderImage.PNG" class="questionImage">
+                    <input type="text" name="q8" value="" id="q8a"><br/>
+            </div>
+
+            <div id="q9" class="question">
+              <h1 class="questionHeader">Question 9: </h1>
+                <p class="q">“bob” is an object with a property called “age”. How would you access this property to change the value of “age” to 5?</p><br/>
+                <input type="text" name="q9" value="" id="q9a"><label>= 5</label><br/>
+            </div>
+
+            <div id="q10" class="question">
+              <h1 class="questionHeader">Question 10: </h1>
+                <p class="q">In the function above, what are orange “x” and “y” referred to as?</p><br/>
+                <img src="_assets/images/pro/q10_HeaderImage.PNG" class="questionImage">
+                <input type="radio" name="q10" value="Methods" id="q10a"><label>Methods</label><br/>
+                <input type="radio" name="q10" value="Objects" id="q10b"><label>Objects</label><br/>
+                <input type="radio" name="q10" value="Parameters" id="q10c"><label>Parameters</label><br/>
+                <input type="radio" name="q10" value="Variables" id="q10d"><label>Variables</label><br/>
+            </div>
+    
+            <input type="submit" value="Submit Answers" class="submitButton" onclick="displayResult()">
+            </form>
+          </div>
+     </div>
+</div>            
+    
+    <div class="quiz" id="quizResults">
+            
+        <form>
+             <div id="q1" class="question" required>
+              <h1 class="questionHeader">Question 1: </h1>
+                <p>The word “hero” in hero.moveDown(), hero.moveLeft(), etc. refers to a what?</p><br/>
+                <p class="correctAnswer"> Correct Answer: </p>
+                <p class="userAnswer"> Your Answer: </p>
+            </div>
+            
+            <div id="q2" class="question" required>
+              <h1 class="questionHeader">Question 2: </h1>
+                <p> What are the names of the instructions “hero.moveDown()”, “hero.moveLeft()” etc.?</p><br/>
+                  <p class="correctAnswer"> Correct Answer: </p>
+                <p class="userAnswer"> Your Answer: </p>
+            </div>
+                
+            <div id="q3" class="question" required>
+              <h1 class="questionHeader">Question 3: </h1>
+                <p>animal, favNum, and pi are examples of what?</p><br/>
+                 <p class="correctAnswer"> Correct Answer: </p>
+                <p class="userAnswer"> Your Answer: </p>
+            </div>
+                
+            <div id="q4" class="question" required>
+              <h1 class="questionHeader">Question 4: </h1>
+                <p>What are the 2 possible values a Boolean can take on?</p><br/>
+                  <p class="correctAnswer"> Correct Answer: </p>
+                <p class="userAnswer"> Your Answer: </p>
+            </div>
+                
+            <div id="q5" class="question" required>
+              <h1 class="questionHeader">Question 5: </h1>
+                <p>What is the value of “a”?</p><br/>
+                 <p class="correctAnswer"> Correct Answer: </p>
+                <p class="userAnswer"> Your Answer: </p>
+            </div>
+                
+            <div id="q6" class="question" required>
+              <h1 class="questionHeader">Question 6: </h1>
+                <p>What is the output?</p><br/>
+                  <p class="correctAnswer"> Correct Answer: </p>
+                <p class="userAnswer"> Your Answer: </p>
+            </div>
+                
+            <div id="q7" class="question" required>
+              <h1 class="questionHeader">Question 7: </h1>
+                <p>Study the code above. What is the value of “x”?</p><br/>
+                  <p class="correctAnswer"> Correct Answer: </p>
+                <p class="userAnswer"> Your Answer: </p>
+            </div>
+                
+            <div id="q8" class="question" required>
+              <h1 class="questionHeader">Question 8: </h1>
+                <p>Study the code above. What is the value of “x”?</p><br/>
+                 <p class="correctAnswer"> Correct Answer: </p>
+                <p class="userAnswer"> Your Answer: </p>
+            </div>
+                
+            <div id="q9" class="question" required>
+              <h1 class="questionHeader">Question 9: </h1>
+                <p>“bob” is an object with a property called “age”. How would you access this property to change the value of “age” to 5?
+</p><br/>
+                  <p class="correctAnswer"> Correct Answer: </p>
+                <p class="userAnswer"> Your Answer: </p>
+            </div>
+                
+            <div id="q10" class="question" required>
+              <h1 class="questionHeader">Question 10: </h1>
+                <p>In the function above, what are orange “x” and “y” referred to as?</p><br/>
+                  <p class="correctAnswer"> Correct Answer: </p>
+                <p class="userAnswer"> Your Answer: </p>
+            </div>
+            
+            <p id="results"></p>
+            
+            
+            <a href="cumulative.html" id="return">Return Home</a>
+                
+            </div>
+            
+
+<script src="../scripts/quizone.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,120 @@
+body {
+    font-family: 'Raleway';
+}
+
+#navContainer {
+    background-color: #fffef7;   
+}
+
+nav {
+	margin-top:0;
+	width:100%;
+	position:relative;
+}
+
+nav ul {
+	margin: 0;
+    margin-left: 10%;
+	display:flex;
+	padding: 0 20px;
+}
+
+nav li {
+	font-size: 20px;
+    margin-top: 1%;
+	list-style-type: none;
+    padding: 0 80px;
+	text-transform: uppercase;
+}
+
+nav li a {
+	color: #6B7B8F;
+    font-family: 'Open Sans';
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+    padding: 30px 0;
+	width: 50px;
+}
+
+nav li a:hover {
+    color: #f5964a;
+}
+
+.hamburger-menu, .hamburger-button {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 101;
+    &:hover {
+      .hamburger-line {
+        background-color: @flyout-color-light;
+      }
+    }
+    padding: 2px;
+    width: @button-width;
+    height: @button-width;
+    .border-radius(5px);
+    .hamburger-line {
+      pointer-events:none;
+      .border-radius(2px);
+      background-color: @flyout-color;
+      height: 4px;
+      width: 80%;
+      margin: 16% 10%;
+    }
+  }
+    
+    #mobile-header, #mobile-icon, #mobile-nav, #mobile-logo {
+        display: none;
+    }
+
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    
+    #desktop-nav {
+        display: none;
+    }
+    
+    #mobile-header {
+        display: block;
+    }
+
+    #mobile-icon {
+        display: block;
+        width: 10%;
+        float: right;
+        margin: 5% 3% 0 0;
+    }
+    
+    #mobile-logo {
+        display: block;
+        margin: 1% 0 0 2%;
+    }
+    
+    nav {
+        width: 10%;   
+    }
+    
+    nav ul {
+        display: flex;   
+    }
+    
+    nav li {
+        padding: 20px 260px;
+        margin: 0 auto;
+    }
+    
+    #nav-five {
+        padding: 20px 240px;
+    }
+    
+    #nav-six {
+        padding: 20px 250px;
+    }
+    
+    nav li a {
+        text-align: center;
+    }
+    
+}

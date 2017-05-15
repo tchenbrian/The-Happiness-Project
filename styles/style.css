@@ -1,0 +1,58 @@
+/* General Styles */
+
+body {
+    margin: 0;
+    background-color:#FFFEF7;
+    width: 100%;
+}
+
+p {
+    line-height: 2.1em;
+    color: #89531c;
+    text-align: justify;
+    width: 90%;
+    font-family: 'Raleway', serif;
+}
+
+h1 {
+    font-family: 'Roboto', serif;
+    text-align: center;
+    color: #89531c;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-family: 'Roboto', serif;
+    text-align: center;
+    color: #89531c;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+} 
+
+/* Footer */
+
+footer {
+    border: 0;
+    display: block;
+    padding: 20px 20px 0px 20px;
+    color: #fff;
+    background-color: #f5964a;
+    position: relative;
+    top: 150px;
+    height: 115px;
+    width: 100%;
+    bottom: 0;
+    vertical-align: bottom;
+}
+
+#footerText {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1.8em auto;
+    color: white;
+    letter-spacing: 2.5px;
+    font-size: 1.2em;
+}
+

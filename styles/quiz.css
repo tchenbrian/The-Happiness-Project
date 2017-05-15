@@ -1,0 +1,269 @@
+body {
+    width: 100%;
+    background-color: #fffef7;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    margin: 0;
+}
+
+p {
+    position: relative;
+    font-size: 1.4em;
+    line-height: 35px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-right:2em;
+    text-align: left;
+    width: 900px;
+}
+
+p.q {
+    color: #333;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 0.7em;
+    color:#fff;
+    font-weight:bold;
+    font-size:6em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Quiz Styles */
+
+.questionHeader {
+  color: #ffcf34;
+  font-size: 2em;
+  text-align: left;
+  margin-left: -1em;
+}
+
+.questionImage {
+    margin-bottom: 15%;
+    display: block;
+    width: 180%;
+}
+
+#title {
+    display: none;
+}
+
+#nameForm {
+    display: none;
+}
+
+#results {
+    color: white;
+    position: relative;
+    left: 50%;
+}
+
+#resultsText {
+    display: none;
+}
+
+#quizIntro {
+    position: relative;
+    left: 15%;
+    margin-top: 10%;
+}
+
+.quiz {
+  width: 30%;
+}
+
+#quizForm {
+    display: none;
+    background-color: #13498a;   
+}
+
+#quizResults {
+    display: none;
+}
+
+#qArray {
+  width: 100%;
+  margin: 0;
+  background-color: #13498a;
+}
+
+.question {
+    width: 100%;
+    padding: 5% 100% 5% 20%;
+    margin: 10% 10%;
+    position: relative;
+    font-size: 1em;
+    line-height: 24px;
+    font-weight: bold;
+    color: #000030;
+    text-decoration: none;
+    margin-right:2em;
+    background-color: #fff;
+}
+
+#resultOne {
+    display: none;   
+}
+
+#resultTwo {
+    display: none;   
+}
+
+/* Forms */
+
+input {
+    position: relative;
+    margin-bottom: 5%;
+}
+
+input[type=submit] {
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+label {
+    position: relative;
+    left: 5%;
+    color: #13498a;
+    font-size: 1.3em;
+    margin-bottom: 5%;
+}
+
+/* Buttons */
+
+#start {
+    margin-top: 5%;
+    left: 40%;
+    display: block;
+}
+
+#start:hover {
+    background-color: white;
+    color: black;
+}
+
+.submitButton {
+    background-color: #FCD53A;
+    border: none;
+    color: #13498a;
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    border-radius: 15px;
+    position: relative;
+    left: 30%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.submitButton:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 1004px) {
+    
+    .question {
+        width: 500px;   
+    }
+    
+    .questionImage {
+        width: 700px;   
+    }
+        
+    #logo {
+        width: 60%;   
+    }
+    
+    p {
+        width: 700px;   
+    }
+    
+    #results {
+        margin-top: 20%;
+        left: 10%;
+    }
+    
+    #return {
+        left: 10%;
+        padding-bottom: 20%;
+    }
+    
+}
+    
+
+@media screen and (max-width: 500px) {
+    
+    #logo {
+        left: 0%;
+        width: inherit;
+    }
+    
+    .quiz {
+        width: 25%;
+    }
+    
+    p {
+        width: 400px;   
+    }
+    
+    .questionHeader {
+        position: relative;
+        left: 10%;
+    }   
+    
+    .questionImage {
+        width: 400px;
+    }
+    
+    .question {
+        width: 340px;   
+    }
+
+    .preface {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    color:#fff;
+    position: relative;
+    right: 3%;
+    font-family: 'Raleway';
+    font-size: 1.2em;
+    }
+    
+    .link {
+    position: relative;
+    left: 25%;
+    top: 10%;
+    font-size: 2em;
+    padding: 0.5em;
+    }
+    
+    .container {
+        margin: 25% 0;
+        height: 200px;
+    }
+    
+    #linkTwo {
+        left: 22%;   
+    }
+
+  #submitButton {
+    margin: 0;
+    position: inherit;
+    border-radius: 0;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+  }
+    
+
+}
