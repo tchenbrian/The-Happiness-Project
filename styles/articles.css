@@ -63,7 +63,7 @@ img.thumbnail {
 
 h1.articleHeader {
     font-weight: bold;
-    color: black;
+    color: #ef4b3a;
     letter-spacing: 0;
     text-align: left;
     margin: 5% 0 7% 10%;
@@ -109,7 +109,7 @@ time {
 /* Articles */
 
 .articleContainer {
-    width: 60%;
+    width: 80%;
     margin: 10% 0 0 3em;
 }
 
@@ -124,7 +124,6 @@ time {
 }
 
 .additionalInfo {
-    font-family: 'Raleway', serif;
     font-style: italic;
     text-align: left;
     color: black;
@@ -135,10 +134,36 @@ time {
 
 .articleText {
     line-height: 1.9em;
-    font-family: 'Raleway', serif;
     text-align: left;
     color: black;
     text-transform: none;
     margin-left: 4em;
+    font-weight: 200;
     letter-spacing: 1px;
+}
+
+#adversity {
+    top: 37%;
+    left: 42%;
+}
+
+
+#anxiety {
+    top: 37%;
+    left: 42%; 
+}
+
+#grades {
+    top: 37%;
+    left: 42%;
+}
+
+#fear {
+    top: 38%;
+    left: 45%;
+}
+
+#bodyImage {
+    top: 40%;
+    left: 38%;
 }
