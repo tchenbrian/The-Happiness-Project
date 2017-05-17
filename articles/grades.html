@@ -2,9 +2,10 @@
 <html>
 <head>
     <title>The Happiness Project</title>
-    <link rel="stylesheet" type ="text/css" href="../styles/style.css">
-    <link rel="stylesheet" type ="text/css" href="../styles/articles.css">
-    <link rel="stylesheet" type ="text/css" href="../styles/nav.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="styles/style.css">
+    <link rel="stylesheet" type ="text/css" href="styles/articles.css">
+    <link rel="stylesheet" type ="text/css" href="styles/nav.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -12,100 +13,142 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700" rel="stylesheet">
 </head>
 <body>
- 
-<nav>
-        <ul class="nav_ul">
-            <img src="../logo.png">
-            <li class="nav_li"><a href="index.html">Home</a></li>
-            <li class="nav_li"><a href="about.html">About</a></li>
-            <li class="nav_li"><a href="explore.html">Explore</a></li>
-            <li class="nav_li"><a href="quizzes.html">Quizzes</a></li>
-            <li class="nav_li"><a href="inspiration.html">Inspiration</a></li>
-    
+ <div id="mobile-header">
+    <img src="images/hamburger_menu.png" id="mobile-icon" onclick="displayNav()">
+    <img src="logo.png" id="mobile-logo">
+    </div>
+    <div id="mobile-header">
+    <img src="images/hamburger_menu.png" id="mobile-icon" onclick="displayNav()">
+    <img src="logo.png" id="mobile-logo">
+    </div>
+    <nav>
+        <ul class="nav_ul" id="mobile-nav">
+            <li class="nav_li" id="nav-one"><a href="../index.html">Home</a></li>
+            <li class="nav_li" id="nav-two"><a href="../about.html">About</a></li>
+            <li class="nav_li" id="nav-three"><a href="../explore.html">Explore</a></li>
+            <li class="nav_li" id="nav-four"><a href="../quizzes.html">Quizzes</a></li>
+            <li class="nav_li" id="nav-five"><a href="../inspiration.html">Inspiration</a></li>
+            <li class="nav_li" id="nav-six"><a href="https://brian715218.wixsite.com/thehappinessproject/posters">Shop</a></li>
         </ul>
     </nav>
+    
+    <nav>
+        <ul class="nav_ul" id="desktop-nav">
+            <img src="logo.png" width="287px" height="135px">
+            <li class="nav_li"><a href="../index.html">Home</a></li>
+            <li class="nav_li"><a href="../about.html">About</a></li>
+            <li class="nav_li"><a href="../explore.html">Explore</a></li>
+            <li class="nav_li"><a href="../quizzes.html">Quizzes</a></li>
+            <li class="nav_li"><a href="../inspiration.html">Inspiration</a></li>
+            <li class="nav_li"><a href="https://brian715218.wixsite.com/thehappinessproject/posters">Shop</a></li>
+        </ul>
+    </nav>
+    
+    <h2 class="headerImageText" id="grades">Grades</h2>
+    <img src="images/header_grades.jpg" class="headerImage">
     
 <div class="articleContainer">
     
     <h2 class="articleTitle">How to Actually Improve Your Grades</h2>
     
     <p class="articleText">
-    On the 4.0 scale, an unweighted 4.0 GPA means perfection. You need straight A’s in every class – not even one A- is allowed. In college applications, this carries a lot of weight – you’re essentially telling the college, “high school classes are a cinch. I’ve taken a tough courseload, and I’m more than prepared for what college has to throw at me.”  
-    </p>
-    
-    <p class="articleText">
-    In high school, I got a 4.0 GPA with a courseload featuring 6 AP courses. This strong courseload, along with strong test scores, recommendation letters, essays, and extracurricular activities, makes me a highly qualified candidate for nearly any college or university in the country.
-    </p>
-    
-    <p class="articleText">
-    While it's flattering to say, "well, Brian's just a smart guy," in reality I relied a lot more on high level strategy and strong academic habits. Any perception that you need to be a genius, solve Rubik's cubes in a blink of an eye, or memorize and recite the periodic table can go right out the door. In reality, getting a 4.0 requires diligence and hard work rather than mere intelligence. 
-    </p>
-    
-    <p class="articleText">
-    Do you know how to learn effectively? Do you plan your course sequence correctly? Do you know how to structure your time so you get an A in the most efficient way possible? Do you understand how your teacher thinks and how to give your teacher what she wants? Do you have good study habits so you’re not wasting hundreds of hours of study time? Do you have self-discipline and motivation to put in all the word required to handle a challenging courseload? Do you know how to use your inevitable failures to adjust course quickly and improve yourself to raise your grade? 
-    </p>
-    
-    <p class="articleText">
-    Going deeply into these topics is the subject of this guide. I believe these high-level skills are the critical foundation to academic success – without good strategy, you can pound your head against the wall and waste thousands of hours getting nowhere.
-    </p>
-    
-    <p class="articleText">
-    Tragically, these strategies are rarely taught in school. Teachers will collectively spend thousands of hours teaching you from their curriculum but rarely show you how to strategize your coursework and get better grades. However, if you earnestly apply most of the concepts here, I am certain that you will have a much higher chance of academic success.
-    </p>
-    
-    <p class="articleText">
-    On the 4.0 scale, an unweighted 4.0 GPA means perfection. You need straight A’s in every class – not even one A- is allowed. In college applications, this carries a lot of weight – you’re essentially telling the college, “high school classes are a cinch. I’ve taken a tough courseload, and I’m more than prepared for what college has to throw at me.”  
-    </p>
-    
-    <p class="articleText">
-    In high school, I got a 4.0 GPA with a courseload featuring 6 AP courses. This strong courseload, along with strong test scores, recommendation letters, essays, and extracurricular activities, makes me a highly qualified candidate for nearly any college or university in the country.
-    </p>
-    
-    <p class="articleText">
-    While it's flattering to say, "well, Brian's just a smart guy," in reality I relied a lot more on high level strategy and strong academic habits. Any perception that you need to be a genius, solve Rubik's cubes in a blink of an eye, or memorize and recite the periodic table can go right out the door. In reality, getting a 4.0 requires diligence and hard work rather than mere intelligence. 
-    </p>
-    
-    <p class="articleText">
-    Do you know how to learn effectively? Do you plan your course sequence correctly? Do you know how to structure your time so you get an A in the most efficient way possible? Do you understand how your teacher thinks and how to give your teacher what she wants? Do you have good study habits so you’re not wasting hundreds of hours of study time? Do you have self-discipline and motivation to put in all the word required to handle a challenging courseload? Do you know how to use your inevitable failures to adjust course quickly and improve yourself to raise your grade? 
-    </p>
-    
-    <p class="articleText">
-    Going deeply into these topics is the subject of this guide. I believe these high-level skills are the critical foundation to academic success – without good strategy, you can pound your head against the wall and waste thousands of hours getting nowhere.
-    </p>
-    
-    <p class="articleText">
-    Tragically, these strategies are rarely taught in school. Teachers will collectively spend thousands of hours teaching you from their curriculum but rarely show you how to strategize your coursework and get better grades. However, if you earnestly apply most of the concepts here, I am certain that you will have a much higher chance of academic success.
-    </p>
+On the 4.0 scale, an unweighted 4.0 GPA means perfection. You need straight A’s in every class – not even one A- is allowed. In college applications, this carries a lot of weight – you’re essentially telling the college, “high school classes are a cinch. I’ve taken a tough courseload, and I’m more than prepared for what college has to throw at me." However, any perception that you need to be a genius, solve Rubik's cubes in a blink of an eye, or memorize and recite the periodic table can go right out the door. In reality, getting a 4.0 requires diligence and hard work rather than mere intelligence.
+</p>
 
-    
-    <p class="articleText">
-    On the 4.0 scale, an unweighted 4.0 GPA means perfection. You need straight A’s in every class – not even one A- is allowed. In college applications, this carries a lot of weight – you’re essentially telling the college, “high school classes are a cinch. I’ve taken a tough courseload, and I’m more than prepared for what college has to throw at me.”  
-    </p>
-    
-    <p class="articleText">
-    In high school, I got a 4.0 GPA with a courseload featuring 6 AP courses. This strong courseload, along with strong test scores, recommendation letters, essays, and extracurricular activities, makes me a highly qualified candidate for nearly any college or university in the country.
-    </p>
-    
-    <p class="articleText">
-    While it's flattering to say, "well, Brian's just a smart guy," in reality I relied a lot more on high level strategy and strong academic habits. Any perception that you need to be a genius, solve Rubik's cubes in a blink of an eye, or memorize and recite the periodic table can go right out the door. In reality, getting a 4.0 requires diligence and hard work rather than mere intelligence. 
-    </p>
-    
-    <p class="articleText">
-    Do you know how to learn effectively? Do you plan your course sequence correctly? Do you know how to structure your time so you get an A in the most efficient way possible? Do you understand how your teacher thinks and how to give your teacher what she wants? Do you have good study habits so you’re not wasting hundreds of hours of study time? Do you have self-discipline and motivation to put in all the word required to handle a challenging courseload? Do you know how to use your inevitable failures to adjust course quickly and improve yourself to raise your grade? 
-    </p>
-    
-    <p class="articleText">
-    Going deeply into these topics is the subject of this guide. I believe these high-level skills are the critical foundation to academic success – without good strategy, you can pound your head against the wall and waste thousands of hours getting nowhere.
-    </p>
-    
-    <p class="articleText">
-    Tragically, these strategies are rarely taught in school. Teachers will collectively spend thousands of hours teaching you from their curriculum but rarely show you how to strategize your coursework and get better grades. However, if you earnestly apply most of the concepts here, I am certain that you will have a much higher chance of academic success.
-    </p>
+<p class="articleText">
+Do you know how to learn effectively? Do you plan your course sequence correctly? Do you know how to structure your time so you get an A in the most efficient way possible? Do you understand how your teacher thinks and how to give your teacher what she wants? Do you have good study habits so you’re not wasting hundreds of hours of study time? Do you have self-discipline and motivation to put in all the word required to handle a challenging courseload? Do you know how to use your inevitable failures to adjust course quickly and improve yourself to raise your grade?
+</p>
 
+<p class="articleText">
+The first, most fundamental thing you need to control is your own psychology. You need to believe that you’re capable of improving, and you need to be motivated to work hard.
+</p>
 
-<img class="articleImage">
+<p class="articleText">
+If you lack these two insights, you won’t be able to put in the effort to achieve your goals, and you’ll be crippled by small setbacks.
+</p>
+
+<p class="articleText">
+Strategy #1: Take Less Difficult Classes
+</p>
+
+<p class="articleText">
+This isn’t something I would normally advocate, but if your GPA is really suffering because of a low grade in a high level class, it may be time to cut your losses. Sometimes it’s better for both your GPA and mental health to drop down a level. You may be able to get a significantly better grade in a lower level class very quickly, thus raising your GPA much faster than if you continued to struggle in a difficult course. 
+</p>
+
+<p class="articleText">
+For example, if you’re getting a C in Honors Calculus, it will require a lot of effort to improve that grade, and the change in your GPA will be minor or nonexistent. If you decided to drop down to a mid or low level math class, you might be familiar with some of the concepts since you already experienced a more fast-paced class. In a low or mid-level class you could get a much higher grade fairly easily. If your school uses weighted GPAs, a C in a high level class might translate to a 3.0. If you drop down to a low level class and start getting As, those grades will translate to a 4.0. That’s a big difference in a short period of time! 
+</p>
+
+<p class="articleText">
+Strategy #2: Take More Classes
+</p>
+
+<p class="articleText">
+This is a way to raise your GPA quickly that some people don’t really think about because it seems somewhat counterintuitive. Why would you take more classes if you’re struggling? The thing is, it’s not just core classes that make up your GPA. Electives also play into GPA. If you have a free period right now, you might consider taking an elective that you find interesting to fill up the space and raise your GPA.
+</p>
+
+<p class="articleText">
+Many of these classes won’t present a big challenge, and they can be a fun break from your regular classes where you won't have to put in as much effort to get good grades. This is a strategy to be used with caution. I’m not trying to say “just go for the easy A and you’ll be fine." Keep in mind that this may be a viable strategy to raise your GPA fast, but it’s not necessarily a good way to ensure that you’ll get accepted to a great college. 
+</p>
+
+<p class="articleText">
+Colleges will be able to see your grades in specific classes and exactly how you ended up with your current GPA. Taking an easy elective will raise your GPA quickly, but it's kind of like putting a band aid on a stab wound. It absolutely doesn’t mean you should stop trying to raise your grades in core classes. To make really meaningful changes in your chances at college admission, you will need to address deeper issues with grades in the main subject areas.
+</p>
+
+<p class="articleText">
+Taking an easy class and seeing a quick positive change in your GPA may put you in a better mindset to tackle more daunting problems that you face in your core classes. You can create a positive mental feedback loop that will help you to keep up the motivation to work hard in your classes even if an A in “Foods 1" or something isn’t going to persuade selective colleges to admit you. 
+ </p>
+
+ 
+<p class="articleText">
+Strategy #3: Work on Doing Better in Weighted GPA Classes
+</p>
+
+<p class="articleText">
+If your school uses weighted GPA and you’re in some AP or Honors classes where less than perfect grades will translate into impressive GPAs, you should focus your efforts on raising your grades in those classes. On weighted GPA scales, GPAs often go up to a 5.0 rather than a 4.0 to account for more difficult classes. This means that a B in an Honors class translates to a 4.0, and an A translates into a 5.0.
+</p>
+
+<p class="articleText">
+The potential for your grades to lead to a very high GPA is greater in these classes, so they have a better chance at influencing your overall GPA for the better. It makes sense to devote a significant chunk of your energy to these classes because they naturally require more time and effort if you hope to get good grades. If you’re choosing to avoid the work in favor of easier assignments, that might be a big part of your problem.
+</p>
+
+<p class="articleText">
+It’s also more impressive to colleges if you can manage to improve your grades in high level classes. Raising your grades in a lower level class the same amount might give you the same GPA, but it won’t necessarily look as good to admissions officers. You should channel the majority of your energy into the most challenging courses. 
+ </p>
+ 
+<p class="articleText">
+Strategy #4: Focus on Standardized Test Scores
+</p>
+
+<p class="articleText">
+Technically, this isn’t a strategy for raising your GPA. However, if it’s too late to raise your GPA before you apply to college, improving standardized test scores is your best bet for stronger admissions chances. For students headed into their senior year with a less than stellar GPA, improving standardized test scores can make a huge impact on how they fare in the college application process.  
+</p>
+
+<p class="articleText">
+With, say, a 400 point improvement in your SAT scores, you will have a chance at getting into literally hundreds more colleges. This isn't an easy feat, but it's certainly achievable with a few months of concentrated studying. To use an example, let's say you're interested in attending University of Texas at Austin and have a 2.9 GPA and an 1800 SAT score. If you managed to raise your score from an 1800 to a 2200, you would have a 20% chance of admission with the higher score as opposed to a 5% chance with the lower score. And that's with no change at all in your GPA!  
+</p>
+
+<p class="articleText">
+Sometimes the most practical thing to do is to focus on scores rather than grades, especially if you’re already in your second semester of junior year. You can retake the SAT and ACT up until the winter of your senior year if you’re applying to college regular decision. 
+ </p>
+ 
+<p class="articleText">
+Conclusion
+</p>
+
+<p class="articleText">
+The fact is that GPAs don’t lend themselves to quick solutions. If you’re a junior or senior, you may not be able to do much to improve your GPA before you start the admissions process. If this is the case, try to focus on improving your standardized test scores to maximize your chances at getting into selective colleges. 
+</p>
+
+<p class="articleText">
+Other measures you might take to improve your GPA if you’re still a sophomore or early in your junior year include dropping down a level in your classes, taking additional courses where you might be able to get better grades, and focusing your attention on the most difficult classes. Raising your grades is very hard work, but if you can get yourself into better habits and use some of the quick fixes here, you may be able to see some improvement before you apply to college.
+</p>
     
 </div>
+
+<footer>
+    <p id="footerText">&copy; 2017 The Happiness Project</p>
+</footer>
     
     
 </body>

@@ -2,110 +2,67 @@
 <html>
 <head>
     <title>The Happiness Project</title>
-    <link rel="stylesheet" type ="text/css" href="../styles/style.css">
-    <link rel="stylesheet" type ="text/css" href="../styles/articles.css">
-    <link rel="stylesheet" type ="text/css" href="../styles/nav.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,400i" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="styles/style.css">
+    <link rel="stylesheet" type ="text/css" href="styles/articles.css">
+    <link rel="stylesheet" type ="text/css" href="styles/nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700" rel="stylesheet">
 </head>
 <body>
- 
-<nav>
-        <ul class="nav_ul">
-            <img src="../logo.png">
+ <div id="mobile-header">
+    <img src="images/hamburger_menu.png" id="mobile-icon" onclick="displayNav()">
+    <img src="logo.png" id="mobile-logo">
+    </div>
+    <nav>
+        <ul class="nav_ul" id="mobile-nav">
+            <li class="nav_li" id="nav-one"><a href="../index.html">Home</a></li>
+            <li class="nav_li" id="nav-two"><a href="../about.html">About</a></li>
+            <li class="nav_li" id="nav-three"><a href="../explore.html">Explore</a></li>
+            <li class="nav_li" id="nav-four"><a href="../quizzes.html">Quizzes</a></li>
+            <li class="nav_li" id="nav-five"><a href="../inspiration.html">Inspiration</a></li>
+            <li class="nav_li" id="nav-six"><a href="https://brian715218.wixsite.com/thehappinessproject/posters">Shop</a></li>
+        </ul>
+    </nav>
+    
+    <nav>
+        <ul class="nav_ul" id="desktop-nav">
+            <img src="logo.png" width="287px" height="135px">
             <li class="nav_li"><a href="../index.html">Home</a></li>
             <li class="nav_li"><a href="../about.html">About</a></li>
             <li class="nav_li"><a href="../explore.html">Explore</a></li>
             <li class="nav_li"><a href="../quizzes.html">Quizzes</a></li>
             <li class="nav_li"><a href="../inspiration.html">Inspiration</a></li>
-            <li class="nav_li"><a href="../shop.html">Shop</a></li>
+            <li class="nav_li"><a href="https://brian715218.wixsite.com/thehappinessproject/posters">Shop</a></li>
         </ul>
     </nav>
     
-    <h2 class="headerImageText">Body Image</h2>
-    <img src="../images/header_bodyimage.png" class="headerImage">
+    <h2 class="headerImageText" id="bodyImage">Body Image</h2>
+    <img src="images/header_bodyimage.png" class="headerImage">
     
 <div class="articleContainer">
 
     <h2 class="articleTitle">Body Image: Fact vs. Fiction</h2>
     
-    <img src="../images/bodyimage-header.jpg" class="articleImage">
-    
     <p class="articleText">
-    On the 4.0 scale, an unweighted 4.0 GPA means perfection. You need straight A’s in every class – not even one A- is allowed. In college applications, this carries a lot of weight – you’re essentially telling the college, “high school classes are a cinch. I’ve taken a tough courseload, and I’m more than prepared for what college has to throw at me.”  
-    </p>
-    
-    <p class="articleText">
-    In high school, I got a 4.0 GPA with a courseload featuring 6 AP courses. This strong courseload, along with strong test scores, recommendation letters, essays, and extracurricular activities, makes me a highly qualified candidate for nearly any college or university in the country.
-    </p>
-    
-    <p class="articleText">
-    While it's flattering to say, "well, Brian's just a smart guy," in reality I relied a lot more on high level strategy and strong academic habits. Any perception that you need to be a genius, solve Rubik's cubes in a blink of an eye, or memorize and recite the periodic table can go right out the door. In reality, getting a 4.0 requires diligence and hard work rather than mere intelligence. 
-    </p>
-    
-    <p class="articleText">
-    Do you know how to learn effectively? Do you plan your course sequence correctly? Do you know how to structure your time so you get an A in the most efficient way possible? Do you understand how your teacher thinks and how to give your teacher what she wants? Do you have good study habits so you’re not wasting hundreds of hours of study time? Do you have self-discipline and motivation to put in all the word required to handle a challenging courseload? Do you know how to use your inevitable failures to adjust course quickly and improve yourself to raise your grade? 
-    </p>
-    
-    <p class="articleText">
-    Going deeply into these topics is the subject of this guide. I believe these high-level skills are the critical foundation to academic success – without good strategy, you can pound your head against the wall and waste thousands of hours getting nowhere.
-    </p>
-    
-    <p class="articleText">
-    Tragically, these strategies are rarely taught in school. Teachers will collectively spend thousands of hours teaching you from their curriculum but rarely show you how to strategize your coursework and get better grades. However, if you earnestly apply most of the concepts here, I am certain that you will have a much higher chance of academic success.
-    </p>
-    
-    <p class="articleText">
-    On the 4.0 scale, an unweighted 4.0 GPA means perfection. You need straight A’s in every class – not even one A- is allowed. In college applications, this carries a lot of weight – you’re essentially telling the college, “high school classes are a cinch. I’ve taken a tough courseload, and I’m more than prepared for what college has to throw at me.”  
-    </p>
-    
-    <p class="articleText">
-    In high school, I got a 4.0 GPA with a courseload featuring 6 AP courses. This strong courseload, along with strong test scores, recommendation letters, essays, and extracurricular activities, makes me a highly qualified candidate for nearly any college or university in the country.
-    </p>
-    
-    <p class="articleText">
-    While it's flattering to say, "well, Brian's just a smart guy," in reality I relied a lot more on high level strategy and strong academic habits. Any perception that you need to be a genius, solve Rubik's cubes in a blink of an eye, or memorize and recite the periodic table can go right out the door. In reality, getting a 4.0 requires diligence and hard work rather than mere intelligence. 
-    </p>
-    
-    <p class="articleText">
-    Do you know how to learn effectively? Do you plan your course sequence correctly? Do you know how to structure your time so you get an A in the most efficient way possible? Do you understand how your teacher thinks and how to give your teacher what she wants? Do you have good study habits so you’re not wasting hundreds of hours of study time? Do you have self-discipline and motivation to put in all the word required to handle a challenging courseload? Do you know how to use your inevitable failures to adjust course quickly and improve yourself to raise your grade? 
-    </p>
-    
-    <p class="articleText">
-    Going deeply into these topics is the subject of this guide. I believe these high-level skills are the critical foundation to academic success – without good strategy, you can pound your head against the wall and waste thousands of hours getting nowhere.
-    </p>
-    
-    <p class="articleText">
-    Tragically, these strategies are rarely taught in school. Teachers will collectively spend thousands of hours teaching you from their curriculum but rarely show you how to strategize your coursework and get better grades. However, if you earnestly apply most of the concepts here, I am certain that you will have a much higher chance of academic success.
-    </p>
+The definition of body image according to Merriam-Webster’s dictionary is “a subjective picture of one’s own physical appearance established both by self-observation and by noting the reactions of others." There are many other definitions that can describe the term body image, but I think this one describes it perfectly. At the end where it says “noting the reactions of others", it shows that body image doesn’t just come from someone’s own mind, a lot of the time it’s taken from how they think other people perceive them.
+</p>
 
-    
-    <p class="articleText">
-    On the 4.0 scale, an unweighted 4.0 GPA means perfection. You need straight A’s in every class – not even one A- is allowed. In college applications, this carries a lot of weight – you’re essentially telling the college, “high school classes are a cinch. I’ve taken a tough courseload, and I’m more than prepared for what college has to throw at me.”  
-    </p>
-    
-    <p class="articleText">
-    In high school, I got a 4.0 GPA with a courseload featuring 6 AP courses. This strong courseload, along with strong test scores, recommendation letters, essays, and extracurricular activities, makes me a highly qualified candidate for nearly any college or university in the country.
-    </p>
-    
-    <p class="articleText">
-    While it's flattering to say, "well, Brian's just a smart guy," in reality I relied a lot more on high level strategy and strong academic habits. Any perception that you need to be a genius, solve Rubik's cubes in a blink of an eye, or memorize and recite the periodic table can go right out the door. In reality, getting a 4.0 requires diligence and hard work rather than mere intelligence. 
-    </p>
-    
-    <p class="articleText">
-    Do you know how to learn effectively? Do you plan your course sequence correctly? Do you know how to structure your time so you get an A in the most efficient way possible? Do you understand how your teacher thinks and how to give your teacher what she wants? Do you have good study habits so you’re not wasting hundreds of hours of study time? Do you have self-discipline and motivation to put in all the word required to handle a challenging courseload? Do you know how to use your inevitable failures to adjust course quickly and improve yourself to raise your grade? 
-    </p>
-    
-    <p class="articleText">
-    Going deeply into these topics is the subject of this guide. I believe these high-level skills are the critical foundation to academic success – without good strategy, you can pound your head against the wall and waste thousands of hours getting nowhere.
-    </p>
-    
-    <p class="articleText">
-    Tragically, these strategies are rarely taught in school. Teachers will collectively spend thousands of hours teaching you from their curriculum but rarely show you how to strategize your coursework and get better grades. However, if you earnestly apply most of the concepts here, I am certain that you will have a much higher chance of academic success.
-    </p>
+<p class="articleText">
+The pressure of body image and looks have been around for as long as anyone can remember, but as times are changing, I feel like the only thing anyone can rely on anymore is someone’s appearance. With celebrities being so gorgeous and models being so skinny, that’s all the people see in television, movies and photos. The expectations of a woman nowadays are almost impossible to reach unless Photoshop or an unhealthy lifestyle is obtained. Guys are now hoping for Victoria’s Secret models to be everywhere, and think that if a woman isn’t as beautiful or fit as they are, they aren’t “good enough" for them.
+</p>
+
+<p class="articleText">
+Modern technology and the media have a huge role into the constant judgment of ourselves, as well. When young girls are constantly on their phones or watching TV, they are bound to see a bunch of women who are considered perfect by the media, which makes the girls feel more self-conscious about their weight, face or just about anything. We live in a time where only a few people can rise above the stereotypes and live a happy and normal life, while most people are pressured by the unofficial “laws of society".
+</p>
+
+<p class="articleText">
+Most of the time, people want what other people have, but I believe that everyone should be happy with what they have because that’s what makes them who they are. Everyone is beautiful in his or her own way, so don’t spoil that by wanting something else. Everyone’s oddities make them, as a person, unique. 
+</p>
+
 
 
 <img class="articleImage">
