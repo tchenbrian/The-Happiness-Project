@@ -376,6 +376,56 @@ label {
     position: relative;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1500px) {
+    
+    #contact {
+    top: 5%;
+    position: relative;
+    left: 10%;
+    padding: 10% 0 30% 0;
+    height: 300px;
+}
+    .text {
+  color: #89531c;
+  font-size: 1.2em;
+  line-height: 1.9em;
+  width: 11em;
+  font-weight: 200;
+  position: relative;
+    }
+    
+    .readMoreContainer {
+    position: relative;
+    margin-bottom: 6.5%;
+    }
+
+    .readMore {
+    font-size: 1em;
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    border: 1px solid #89531c;
+    margin-top: 20%;
+    left: 40%;
+    padding: 0.2em;
+    text-align: center;
+    border-radius: 15px;
+    }   
+    
+    .info {
+        margin-top: 25%;
+    }
+    
+    #quizInfo {
+        margin-top: 6%;
+    }
+    
+    div#envelope {
+        width: 80%;
+    }
+}
+
+
 @media only screen and (min-width: 0px) and (max-width: 768px) {
     
     #contact {

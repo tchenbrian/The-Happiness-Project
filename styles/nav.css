@@ -66,6 +66,42 @@ nav li a:hover {
         display: none;
     }
 
+@media only screen and (min-width: 769px) and (max-width: 1500px) {
+    
+   
+nav {
+	margin-top: 1em;
+	width:100%;
+	position:relative;
+}
+
+nav ul {
+	display:flex;
+	margin-left: 0%;
+}
+
+nav li {
+	font-size: 20px;
+	list-style-type: none;
+	text-transform: uppercase;
+    margin: 0% 4% 0 4%;
+    padding: 45px 0;
+}
+
+nav li a {
+	color: #6B7B8F;
+    font-family: 'Open Sans';
+	text-decoration: none;
+	display: inline-block;
+	text-align: left;
+	width: 50px;
+}
+
+nav li a:hover {
+    color: #f5964a;
+}
+
+}
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
     
