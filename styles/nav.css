@@ -7,24 +7,22 @@ body {
 }
 
 nav {
-	margin-top:0;
+	margin-top: 1em;
 	width:100%;
 	position:relative;
 }
 
 nav ul {
-	margin: 0;
-    margin-left: 10%;
 	display:flex;
-	padding: 0 20px;
+	margin-left: 7%;
 }
 
 nav li {
 	font-size: 20px;
-    margin-top: 1%;
 	list-style-type: none;
-    padding: 0 80px;
 	text-transform: uppercase;
+    margin: 0% 5% 0 5%;
+    padding: 45px 0;
 }
 
 nav li a {
@@ -32,8 +30,7 @@ nav li a {
     font-family: 'Open Sans';
 	text-decoration: none;
 	display: inline-block;
-	text-align: center;
-    padding: 30px 0;
+	text-align: left;
 	width: 50px;
 }
 
@@ -96,25 +93,13 @@ nav li a:hover {
         width: 10%;   
     }
     
-    nav ul {
-        display: flex;   
-    }
-    
     nav li {
         padding: 20px 260px;
         margin: 0 auto;
     }
     
-    #nav-five {
-        padding: 20px 240px;
-    }
-    
-    #nav-six {
-        padding: 20px 250px;
-    }
-    
     nav li a {
-        text-align: center;
+        text-align: left
     }
     
 }

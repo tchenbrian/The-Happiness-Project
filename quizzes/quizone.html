@@ -2,30 +2,44 @@
 <html>
 <head>
     <title>The Happiness Project</title>
-    <link rel="stylesheet" type ="text/css" href="../styles/quiz.css">
-    <link rel="stylesheet" type ="text/css" href="../styles/style.css">
-    <link rel="stylesheet" type ="text/css" href="../styles/nav.css">
+    <link rel="stylesheet" type ="text/css" href="styles/quiz.css">
+    <link rel="stylesheet" type ="text/css" href="styles/style.css">
+    <link rel="stylesheet" type ="text/css" href="styles/nav.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
+ <div id="mobile-header">
+    <img src="images/hamburger_menu.png" id="mobile-icon" onclick="displayNav()">
+    <img src="logo.png" id="mobile-logo">
+    </div>
+    <nav>
+        <ul class="nav_ul" id="mobile-nav">
+            <li class="nav_li" id="nav-one"><a href="index.html">Home</a></li>
+            <li class="nav_li" id="nav-two"><a href="about.html">About</a></li>
+            <li class="nav_li" id="nav-three"><a href="explore.html">Explore</a></li>
+            <li class="nav_li" id="nav-four"><a href="quizzes.html">Quizzes</a></li>
+            <li class="nav_li" id="nav-five"><a href="inspiration.html">Inspiration</a></li>
+            <li class="nav_li" id="nav-six"><a href="https://brian715218.wixsite.com/thehappinessproject/posters">Shop</a></li>
+        </ul>
+    </nav>
     
-<nav>
-        <ul class="nav_ul">
-            <img src="../logo.png">
-            <li class="nav_li"><a href="../index.html">Home</a></li>
-            <li class="nav_li"><a href="../about.html">About</a></li>
-            <li class="nav_li"><a href="../explore.html">Explore</a></li>
-            <li class="nav_li"><a href="../quizzes.html">Quizzes</a></li>
-            <li class="nav_li"><a href="../inspiration.html">Inspiration</a></li>
-            <li class="nav_li"><a href="http://www.wix.com/ecommerce/website">Shop</a></li>
+    <nav>
+        <ul class="nav_ul" id="desktop-nav">
+            <img src="logo.png" width="287px" height="135px">
+            <li class="nav_li"><a href="index.html">Home</a></li>
+            <li class="nav_li"><a href="about.html">About</a></li>
+            <li class="nav_li"><a href="explore.html">Explore</a></li>
+            <li class="nav_li"><a href="quizzes.html">Quizzes</a></li>
+            <li class="nav_li"><a href="inspiration.html">Inspiration</a></li>
+            <li class="nav_li"><a href="https://brian715218.wixsite.com/thehappinessproject/posters">Shop</a></li>
         </ul>
     </nav>
  
 <div id="grid">
-    <img src="../images/pencil.png" id="quizIntro">
+    <img src="images/pencil.png" id="quizIntro">
     <input type="submit" value="LET'S START!" class="submitButton" id="start" onclick="displayQuiz()">
 </div>
 <div id="quizForm" class="centered grid__col--8">
@@ -35,7 +49,7 @@
             <div id="q1" class="question" required>
               <h1 class="questionHeader">Question 1: </h1>
                 <p class="q">Where would you choose to live?</p><br/>
-<img src="../images/sea.jpg" class="questionImage">
+<img src="images/sea.jpg" class="questionImage">
                 <input type="radio" name="q1" value="Parameter" id="q1a"><label>Near the sea</label><br/>
                 <input type="radio" name="q1" value="Object" id="q1b"><label>On the hill</label><br/>
                 <input type="radio" name="q1" value="Variable" id="q1c"><label>In a big city</label><br/>
@@ -206,7 +220,7 @@
             </div>
             
 
-<script src="../scripts/quizone.js"></script>
+<script src="scripts/quizone.js"></script>
     
 </body>
 </html>

@@ -2,9 +2,9 @@
 <html>
 <head>
     <title>The Happiness Project</title>
-    <link rel="stylesheet" type ="text/css" href="../HappinessProject/styles/style.css">
-    <link rel="stylesheet" type ="text/css" href="../HappinessProject/styles/nav.css">
-    <link rel="stylesheet" type ="text/css" href="../HappinessProject/styles/inspiration.css">
+    <link rel="stylesheet" type ="text/css" href="styles/style.css">
+    <link rel="stylesheet" type ="text/css" href="styles/nav.css">
+    <link rel="stylesheet" type ="text/css" href="styles/inspiration.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -13,76 +13,90 @@
     <script src="scripts/lightbox.js"></script>
 </head>
 <body>
- 
-<nav>
-        <ul class="nav_ul">
-            <img src="../HappinessProject/logo.png">
+ <div id="mobile-header">
+    <img src="images/hamburger_menu.png" id="mobile-icon" onclick="displayNav()">
+    <img src="logo.png" id="mobile-logo">
+    </div>
+    <nav>
+        <ul class="nav_ul" id="mobile-nav">
+            <li class="nav_li" id="nav-one"><a href="index.html">Home</a></li>
+            <li class="nav_li" id="nav-two"><a href="about.html">About</a></li>
+            <li class="nav_li" id="nav-three"><a href="explore.html">Explore</a></li>
+            <li class="nav_li" id="nav-four"><a href="quizzes.html">Quizzes</a></li>
+            <li class="nav_li" id="nav-five"><a href="inspiration.html">Inspiration</a></li>
+            <li class="nav_li" id="nav-six"><a href="https://brian715218.wixsite.com/thehappinessproject/posters">Shop</a></li>
+        </ul>
+    </nav>
+    
+    <nav>
+        <ul class="nav_ul" id="desktop-nav">
+            <img src="logo.png" width="287px" height="135px">
             <li class="nav_li"><a href="index.html">Home</a></li>
             <li class="nav_li"><a href="about.html">About</a></li>
             <li class="nav_li"><a href="explore.html">Explore</a></li>
             <li class="nav_li"><a href="quizzes.html">Quizzes</a></li>
             <li class="nav_li"><a href="inspiration.html">Inspiration</a></li>
-            <li class="nav_li"><a href="http://www.wix.com/ecommerce/website">Shop</a></li>
+            <li class="nav_li"><a href="https://brian715218.wixsite.com/thehappinessproject/posters">Shop</a></li>
         </ul>
     </nav>
     
 <div class="row">
   <div class="column">
-    <img src="../HappinessProject/images/inspiration/books.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    <img src="images/inspiration/books.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
   </div>
   <div class="column">
-    <img src="../HappinessProject/images/inspiration/bridge.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    <img src="images/inspiration/bridge.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
   </div>
   <div class="column">
-    <img src="../HappinessProject/images/inspiration/butterfly.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    <img src="images/inspiration/butterfly.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
   </div>
   <div class="column">
-    <img src="../HappinessProject/images/inspiration/candy.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-  </div>
-</div>
-    
-<div class="row">
-  <div class="column">
-    <img src="../HappinessProject/images/inspiration/cat.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../HappinessProject/images/inspiration/clock.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../HappinessProject/images/inspiration/dahlia.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../HappinessProject/images/inspiration/lampionblume.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+    <img src="images/inspiration/candy.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
   </div>
 </div>
     
 <div class="row">
   <div class="column">
-    <img src="../HappinessProject/images/inspiration/minicar.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+    <img src="images/inspiration/cat.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
   </div>
   <div class="column">
-    <img src="../HappinessProject/images/inspiration/music.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+    <img src="images/inspiration/clock.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
   </div>
   <div class="column">
-    <img src="../HappinessProject/images/inspiration/owl.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+    <img src="images/inspiration/dahlia.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
   </div>
   <div class="column">
-    <img src="../HappinessProject/images/inspiration/sea.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+    <img src="images/inspiration/lampionblume.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
   </div>
 </div>
     
 <div class="row">
   <div class="column">
-    <img src="../HappinessProject/images/inspiration/staircase.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow">
+    <img src="images/inspiration/minicar.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
   </div>
   <div class="column">
-    <img src="../HappinessProject/images/inspiration/sunset.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow">
+    <img src="images/inspiration/music.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
   </div>
   <div class="column">
-    <img src="../HappinessProject/images/inspiration/tangerines.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow">
+    <img src="images/inspiration/owl.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
   </div>
   <div class="column">
-    <img src="../HappinessProject/images/inspiration/wine.jpg" onclick="openModal();currentSlide(16)" class="hover-shadow">
+    <img src="images/inspiration/sea.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+  </div>
+</div>
+    
+<div class="row">
+  <div class="column">
+    <img src="images/inspiration/staircase.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/inspiration/sunset.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/inspiration/tangerines.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/inspiration/wine.jpg" onclick="openModal();currentSlide(16)" class="hover-shadow">
   </div>
 </div>
 
@@ -91,103 +105,103 @@
   <div class="modal-content">
 
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/books.jpg" class="sliderImage">
+        <img src="images/inspiration/books.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>     
     </div>
 
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/bridge.jpg" class="sliderImage">
+        <img src="images/inspiration/bridge.jpg" class="sliderImage">
         <p class="sliderTitle">"Beautiful Day" by Joseph J. Mazella</p>
         <p class="sliderText">The sun was just coming up over the mountains today as I took my dogs for their morning walk. I smiled as I watched the purple, pink and red clouds slowly turn to white and gold. The air was cool rather than cold and the sweet sunshine was warm on my face. Even though there wasn’t any leaves on the trees, I could still hear the birds singing songs of Spring. I looked up and saw both a cardinal and a blue jay flying through the sky above me. Even my dogs seemed to notice the difference in the air. They were prancing and playing instead of just doing their morning business in the grass. The golden disk of the sun had just cleared the hillsides in the distance and it looked like it was going to be a beautiful day. As I headed inside, though, I realized something. The beauty of the day didn’t come from the warmth of the sun. It came from the warmth within my own heart and soul. You see, every day that we wake up alive in this world can be a beautiful day if we make it so. It doesn’t matter if it is gray and rainy or cold and snowy outside. It doesn’t matter if our lives are full of struggles, pains, and frustrations. Each day we are given a chance and a choice to make it a beautiful day.</p>
     </div>
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/butterfly.jpg" class="sliderImage">
+        <img src="images/inspiration/butterfly.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
     </div>
 
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/candy.jpg" class="sliderImage">
+        <img src="images/inspiration/candy.jpg" class="sliderImage">
         <p class="sliderTitle">"Life, Love, and Tough Choices" by Anonymous</p>
         <p class="sliderText">When I was younger, I used to think that love was like a Disney movie. At first seemed hard, but they got better and never got bad again. I thought as a little kid that relationships were easy, and everyone would like us, and that nothing was bad in the world. Boy was I in for a rude awakening. We all want to think that everything is perfect, we all want to think that the world is a good place and that all good relationships are forever, but thats just not reality. I personally have experienced so many difficult relationships in my life: some I wish I'd skipped, some I'm glad I had, and some I'm still not sure. All I know is that now, I would never go back and change a single thing. Sure, I have regrets, but doesn't everyone? Isn't that what makes us who we are, what shapes us as we come to learn who we are, and what we want to become? Recently I lost two relationships that were extremely important to me, both I'm still working to get back. Whether this is right or wrong thing to do, I don't know. If I earn these relationships back will I be heading down a bad path that could have been prevented so easily, and just suffer the pain now instead? Life doesn't come with a handbook (as awesome as that would be) because we are faced with important decisions for a reason. What this reason is? To learn and grow. Other than that, answers may vary depending on who you are.</p>
     </div>
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/cat.jpg" class="sliderImage">
+        <img src="images/inspiration/cat.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
     </div>
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/clock.jpg" class="sliderImage">
+        <img src="images/inspiration/clock.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
     </div>
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/dahlia.jpg" class="sliderImage">
+        <img src="images/inspiration/dahlia.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
     </div>
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/lampionblume.jpg" class="sliderImage">
+        <img src="images/inspiration/lampionblume.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
     </div>
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/minicar.jpg" class="sliderImage">
+        <img src="images/inspiration/minicar.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
     </div>
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/music.jpg" class="sliderImage">
+        <img src="images/inspiration/music.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
     </div>
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/owl.jpg" class="sliderImage">
+        <img src="images/inspiration/owl.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
     </div>
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/sea.jpg" class="sliderImage">
+        <img src="images/inspiration/sea.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
     </div>
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/staircase.jpg" class="sliderImage">
+        <img src="images/inspiration/staircase.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
     </div>
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/sunset.jpg" class="sliderImage">
+        <img src="images/inspiration/sunset.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
     </div>
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/tangerines.jpg" class="sliderImage">
+        <img src="images/inspiration/tangerines.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
@@ -195,14 +209,14 @@ Reading has made of me a more productive person. As I love doing it, I must sacr
       
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/wine.jpg" class="sliderImage">
+        <img src="images/inspiration/wine.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
     </div>
       
     <div class="mySlides">
-        <img src="../HappinessProject/images/inspiration/yogurt.jpg" class="sliderImage">
+        <img src="images/inspiration/yogurt.jpg" class="sliderImage">
         <p class="sliderTitle">"Book Addict" by Gerard Madorell</p>
         <p class="sliderText">Reading books has changed me for the better. Every time you open a book, it's like you are put in the mind of the author and you see the world through his eyes. Reading has given me a lot of different perspectives. It's very humbling to read biographies/stories of successful men. It's also encouraging because you often times see that they have failed a fair amounts of times during their life. Some even have got to the point of being bankrupt before triumphing.
 Reading has made of me a more productive person. As I love doing it, I must sacrifice other less important things in order to have time for my precious books. It helped me notice how worthless reading newspapers and watching the news on tv is. It helped me notice how worthless watching tv overall is. How worthless facebook, twitter, reddit, etc are. Reading has taught me how to develop a habit. I used to read a lot when I was between the ages of 5 through 13. Then, one/two years before university, I stopped reading. One of the worst decisions of my life. Thankfully, I regained the habit and I'm very proud of that. Since then, I have never stopped reading for longer than two days. I have learned a lot of things, much more than I would've been able of without reading. And I'm sure a lot more things are to come if I just keep reading.</p>
@@ -213,6 +227,9 @@ Reading has made of me a more productive person. As I love doing it, I must sacr
   </div>
 </div>
     
-
+<footer>
+    <p id="footerText">&copy; 2017 The Happiness Project</p>
+</footer>
+    
 </body>
 </html>

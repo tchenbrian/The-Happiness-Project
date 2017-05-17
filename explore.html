@@ -2,9 +2,9 @@
 <html>
 <head>
     <title>The Happiness Project</title>
-    <link rel="stylesheet" type ="text/css" href="../HappinessProject/styles/style.css">
-    <link rel="stylesheet" type ="text/css" href="../HappinessProject/styles/articles.css">
-    <link rel="stylesheet" type ="text/css" href="../HappinessProject/styles/nav.css">
+    <link rel="stylesheet" type ="text/css" href="styles/style.css">
+    <link rel="stylesheet" type ="text/css" href="styles/articles.css">
+    <link rel="stylesheet" type ="text/css" href="styles/nav.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -12,16 +12,30 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700" rel="stylesheet">
 </head>
 <body>
- 
-<nav>
-        <ul class="nav_ul">
-            <img src="../HappinessProject/logo.png">
+ <div id="mobile-header">
+    <img src="images/hamburger_menu.png" id="mobile-icon" onclick="displayNav()">
+    <img src="logo.png" id="mobile-logo">
+    </div>
+    <nav>
+        <ul class="nav_ul" id="mobile-nav">
+            <li class="nav_li" id="nav-one"><a href="index.html">Home</a></li>
+            <li class="nav_li" id="nav-two"><a href="about.html">About</a></li>
+            <li class="nav_li" id="nav-three"><a href="explore.html">Explore</a></li>
+            <li class="nav_li" id="nav-four"><a href="quizzes.html">Quizzes</a></li>
+            <li class="nav_li" id="nav-five"><a href="inspiration.html">Inspiration</a></li>
+            <li class="nav_li" id="nav-six"><a href="https://brian715218.wixsite.com/thehappinessproject/posters">Shop</a></li>
+        </ul>
+    </nav>
+    
+    <nav>
+        <ul class="nav_ul" id="desktop-nav">
+            <img src="logo.png" width="287px" height="135px">
             <li class="nav_li"><a href="index.html">Home</a></li>
             <li class="nav_li"><a href="about.html">About</a></li>
             <li class="nav_li"><a href="explore.html">Explore</a></li>
             <li class="nav_li"><a href="quizzes.html">Quizzes</a></li>
             <li class="nav_li"><a href="inspiration.html">Inspiration</a></li>
-            <li class="nav_li"><a href="http://www.wix.com/ecommerce/website">Shop</a></li>
+            <li class="nav_li"><a href="https://brian715218.wixsite.com/thehappinessproject/posters">Shop</a></li>
         </ul>
     </nav>
     
@@ -30,125 +44,45 @@
 <h1 class="articleHeader">Articles</h1>
     
 <article class="post">
-  <img src="../HappinessProject/images/thumbnail_bodyimage.jpeg" alt="Article thumbnail" class="thumbnail"/>
+  <img src="images/thumbnail_bodyimage.jpeg" alt="Article thumbnail" class="thumbnail"/>
   <h1 class="title"><a href="articles/bodyimage.html">Body Image: Fact vs. Fiction</a></h1>
   <p>We all have a body image. We all have feelings about the way we look. And we have ideas and feelings about how others think about our looks. Your overall body image can range from very positive to very negative...</p>
   <time datetime="2012-01-01">03/29/17</time>
 </article>
 <article class="post">
- <img src="../HappinessProject/images/thumbnail_fear.jpeg" alt="Article thumbnail" class="thumbnail"/>
+ <img src="images/thumbnail_fear.jpeg" alt="Article thumbnail" class="thumbnail"/>
   <h1 class="title"><a href="articles/fear.html">The Fear Factor</a></h1>
   <p>The only way to deal with fear is to face it. Avoiding it prevents us from moving forward—it makes us anxious...</p>
   <time datetime="2012-01-01">03/22/17</time>
 </article>
     
 <article class="post">
-  <img src="http://www.placehold.it/100x100" class="thumbnail"/>
+  <img src="images/thumbnail_grades.jpg" class="thumbnail"/>
   <h1 class="title"><a href="articles/grades.html">How To Really Improve Your Grades</a></h1>
   <p>On the 4.0 scale, an unweighted 4.0 GPA means perfection. You need straight A’s in every class – not even one A- is allowed. In college applications, this carries a lot of weight – you’re essentially telling the college...</p>
-  <time datetime="2012-01-01">01/01/2012</time>
+  <time datetime="2012-01-01">2/05/17</time>
 </article>
     
 <article class="post">
-  <img src="http://www.placehold.it/100x100" class="thumbnail"/>
+  <img src="images/thumbnail_adversity.jpeg" class="thumbnail"/>
   <h1 class="title"><a href="articles/adversity.html">Fight For Your Life: Dealing With Adversity</a></h1>
   <p>I remember sitting alone on the swings at the playground. Recess was meant to be a period of reprieve and exhilaration, but for me, it meant watching the other students from a distance play basketball or hopscotch...</p>
-  <time datetime="2012-01-01">01/01/2012</time>
+  <time datetime="2012-01-01">01/26/17</time>
 </article>
     
 <article class="post">
-  <img src="http://www.placehold.it/100x100" class="thumbnail"/>
+  <img src="images/thumbnail_crisis.jpeg" class="thumbnail"/>
   <h1 class="title"><a href="articles/crisis.html">Facing the Adolescent Crisis</a></h1>
   <p>One of the current challenges to modern society is the proliferation of anxiety disorders in adolescents...</p>
-  <time datetime="2012-01-01">01/01/2012</time>
+  <time datetime="2012-01-01">01/19/17</time>
 </article>
     
 </div>
     
-<!-- <div class="articleContainer">
+<footer>
+    <p id="footerText">&copy; 2017 The Happiness Project</p>
+</footer>
     
-    <h2 class="articleTitle">How to Actually Improve Your Grades</h2>
-
-    <h3 class="additionalInfo">Additional info</h3>
-    
-    <p class="articleText">
-    On the 4.0 scale, an unweighted 4.0 GPA means perfection. You need straight A’s in every class – not even one A- is allowed. In college applications, this carries a lot of weight – you’re essentially telling the college, “high school classes are a cinch. I’ve taken a tough courseload, and I’m more than prepared for what college has to throw at me.”  
-    </p>
-    
-    <p class="articleText">
-    In high school, I got a 4.0 GPA with a courseload featuring 6 AP courses. This strong courseload, along with strong test scores, recommendation letters, essays, and extracurricular activities, makes me a highly qualified candidate for nearly any college or university in the country.
-    </p>
-    
-    <p class="articleText">
-    While it's flattering to say, "well, Brian's just a smart guy," in reality I relied a lot more on high level strategy and strong academic habits. Any perception that you need to be a genius, solve Rubik's cubes in a blink of an eye, or memorize and recite the periodic table can go right out the door. In reality, getting a 4.0 requires diligence and hard work rather than mere intelligence. 
-    </p>
-    
-    <p class="articleText">
-    Do you know how to learn effectively? Do you plan your course sequence correctly? Do you know how to structure your time so you get an A in the most efficient way possible? Do you understand how your teacher thinks and how to give your teacher what she wants? Do you have good study habits so you’re not wasting hundreds of hours of study time? Do you have self-discipline and motivation to put in all the word required to handle a challenging courseload? Do you know how to use your inevitable failures to adjust course quickly and improve yourself to raise your grade? 
-    </p>
-    
-    <p class="articleText">
-    Going deeply into these topics is the subject of this guide. I believe these high-level skills are the critical foundation to academic success – without good strategy, you can pound your head against the wall and waste thousands of hours getting nowhere.
-    </p>
-    
-    <p class="articleText">
-    Tragically, these strategies are rarely taught in school. Teachers will collectively spend thousands of hours teaching you from their curriculum but rarely show you how to strategize your coursework and get better grades. However, if you earnestly apply most of the concepts here, I am certain that you will have a much higher chance of academic success.
-    </p>
-    
-    <p class="articleText">
-    
-    </p>
-    
-    <p class="articleText">
-    
-    </p>
-    
-    <p class="articleText">
-    
-    </p>
-    
-    <p class="articleText">
-    
-    </p>
-    
-    <p class="articleText">
-    
-    </p>
-    
-    <p class="articleText">
-    
-    </p>
-    
-    <p class="articleText">
-    
-    </p>
-    
-    <p class="articleText">
-    
-    </p>
-    
-    <p class="articleText">
-    
-    </p>
-    
-    <p class="articleText">
-    
-    </p>
-    
-    <p class="articleText">
-    
-    </p>
-    
-    <p class="articleText">
-    
-    </p>
-
-<img class="articleImage">
-    
-</div>
-
--->
-    
-    
+      
 </body>
 </html>

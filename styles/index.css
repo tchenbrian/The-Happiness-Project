@@ -93,7 +93,7 @@ a {
 }
 
 .wrapper {
-    padding: 5% 0 25% 0;
+    padding: 5% 0 5% 0;
     margin: 0;
 }
 
@@ -107,11 +107,24 @@ a {
 }
 
 #wrapper-three {
-    background-color: #ffd2b9;
+    background-color: #f4d7eb;
 }
 
 #wrapper-text-three {
-    color: white;
+    color: black;
+}
+
+#column-text-three {
+    color: black;   
+}
+
+#shopDesc {
+    text-align: left;
+    width: 35%;
+    float: left;
+    margin-top: 10%;
+    left: 10%;
+    color: black;
 }
 
 #header1 {
@@ -335,6 +348,10 @@ label {
 
 /* About Page */
 
+.aboutContainer {
+    margin-bottom: 5%;   
+}
+
 #about {
     margin: 7em 0 0 8em;
 }
@@ -342,7 +359,7 @@ label {
 .aboutTitle {
     font-family: 'Montserrat', serif;
     text-align: left;
-    color: #89531c;
+    color: #ef4b3a;
     text-transform: uppercase;
     letter-spacing: 0px;
 }
@@ -392,7 +409,6 @@ label {
         left: 18%;
     }
     
-    
     #pencil {
         position: relative;
         margin-top: 10%;
@@ -401,7 +417,7 @@ label {
         width: 80%;
     }
     
-    #quizDesc {
+    #quizDesc, #shopDesc {
     text-align: left;
     width: 90%;
     float: none;
@@ -442,6 +458,7 @@ label {
 
     .container {
     position: relative;
+    position: relative;
     width: 100%;
     background-color: #e0ab75;
     display: block;
@@ -465,7 +482,10 @@ label {
     text-align: center;
     border-radius: 15px;
     }   
-
-
+    
+    .aboutContainer {
+        position: relative;
+        left: -8%;   
+    }
     
 }
