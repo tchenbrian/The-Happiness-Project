@@ -185,9 +185,12 @@ time {
     #adversity, #anxiety, #fear, #grades, #bodyImage {
     position: relative;
     top: 50%;
-    left: 14%;
     z-index: -1;
     color: #ef4b3a;
+    }
+    
+    #anxiety {
+        left: 0%;   
     }
     
     #bodyImage {
