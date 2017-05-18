@@ -188,22 +188,10 @@ time {
     color: #ef4b3a;
     }
     
-    #anxiety {
-        left: 0%;   
+    #adversity, #anxiety, #fear, #grades, #bodyImage {
+        left: 0;
     }
-    
-    #bodyImage {
-        left: 0%;
-    }
-    
-    #fear {
-        left: 0%;   
-    }
-    
-    #grades {
-        left: 0%;
-    }
-    
+
     article.post {
     margin: 1% 0 2% 5%;
     padding: 50px 0 0px 110px;
