@@ -179,8 +179,45 @@ time {
     left: 38%;
 }
 
+@media only screen and (max-width: 1300px) {
+    
+    #adversity, #anxiety, #fear, #grades, #bodyImage {
+    position: relative;
+    top: 50%;
+    z-index: -1;
+    color: #ef4b3a;
+    }
+    
+    #anxiety {
+        left: 0%;   
+    }
+    
+    #bodyImage {
+        left: 0%;
+    }
+    
+    #fear {
+        left: 0%;   
+    }
+    
+    #grades {
+        left: 0%;
+    }
+    
+    article.post {
+    margin: 1% 0 2% 5%;
+    padding: 50px 0 0px 110px;
+    height: 300px;
+    width: 70%;
+    
+    }
+    
 
-@media only screen and (min-width: 0px) and (max-width: 768px) {
+    
+}
+
+
+@media only screen and (max-width: 768px) {
     
     #adversity, #anxiety, #fear, #grades, #bodyImage {
     position: relative;

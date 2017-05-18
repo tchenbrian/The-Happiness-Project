@@ -376,7 +376,7 @@ label {
     position: relative;
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1500px) {
+@media only screen and (min-width: 769px) and (max-width: 1300px) {
     
     #contact {
     top: 5%;
@@ -400,7 +400,7 @@ label {
     padding: 0;
     display: block;
     float: left;
-    margin-right: 2em;
+    margin-right: 1em;
     margin-left: 2em;
     }
     
@@ -424,11 +424,13 @@ label {
     
     .info {
         margin-top: 25%;
+        width: 15%;
+        left: 41%;
     }
     
     #quizInfo {
         margin-top: 6%;
-        left: 45%;
+        left: 41%;
     }
     
     div#envelope {

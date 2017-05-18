@@ -185,7 +185,7 @@ label {
     color: black;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1300px) {
     
     .question {
         width: 500px;   
@@ -197,7 +197,7 @@ label {
     
     #quizIntro {
     position: relative;
-    left: 5%;
+    left: 2%;
     margin-top: 10%;
     }
 
