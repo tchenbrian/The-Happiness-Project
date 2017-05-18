@@ -376,7 +376,7 @@ label {
     position: relative;
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1300px) {
+@media only screen and (min-width: 769px) and (max-width: 1500px) {
     
     #contact {
     top: 5%;

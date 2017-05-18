@@ -185,7 +185,7 @@ label {
     color: black;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
     
     .question {
         width: 500px;   
