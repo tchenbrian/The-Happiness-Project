@@ -66,7 +66,7 @@ nav li a:hover {
         display: none;
     }
 
-@media only screen and (min-width: 769px) and (max-width: 1500px) {
+@media only screen and (max-width: 1500px) {
     
    
 nav {
@@ -103,7 +103,7 @@ nav li a:hover {
 
 }
 
-@media only screen and (min-width: 0px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     
     #desktop-nav {
         display: none;
@@ -131,6 +131,36 @@ nav li a:hover {
     
     nav li {
         padding: 20px 260px;
+        margin: 0 auto;
+    }
+    
+    nav li a {
+        text-align: left
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 360px) {
+    
+    #mobile-icon {
+        width: 10%;
+        float: right;
+        margin: 5% 3% 0 0;
+    }
+    
+    #mobile-logo {
+        display: block;
+        margin: 1% 0 0 2%;
+    }
+    
+    nav {
+        width: 10%;   
+    }
+    
+    nav li {
+        padding: 20px 100px;
         margin: 0 auto;
     }
     

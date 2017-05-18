@@ -85,6 +85,7 @@ img.hover-shadow, img.demo {
     text-align: center;
     margin: 0 auto;
     font-family: 'Open Sans';
+    color: #333;
 }
 
 .sliderText {
@@ -93,6 +94,7 @@ img.hover-shadow, img.demo {
     color: #89531c;
     width: 90%;
     margin: 0 auto;
+    color: #666666;
 }
 
 /* Next & previous buttons */
@@ -156,4 +158,26 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1500px) {
+    
+    .row {
+    max-width: 90%;
+    margin: 5% 0 0 7%;
+    }
+    
+    .column {
+  float: left;
+  height:250px;
+  width:250px;
+  margin: 0 1em;
+    }
+    
+    img.hover-shadow, img.demo {
+    height: 250px;
+    width: 250px;   
+}
+    
+      
 }
