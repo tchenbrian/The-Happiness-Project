@@ -153,6 +153,7 @@ nav li a:hover {
     #mobile-logo {
         display: block;
         margin: 1% 0 0 2%;
+        width: 50%;
     }
     
     nav {
