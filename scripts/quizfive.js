@@ -37,10 +37,10 @@ function submitAnswers() {
 
   // Display results
   var results = document.getElementById('results');
-  results.innerHTML = '<h3>You scored <span>' + score + '</span> out of <span>' + total + '.' + '</span></h3>';
-  
+  results.innerHTML += '<h2 id="resultsHeader">Here are your results!</h2>';
+    
     if (score >= 5) {
-        results.innerHTML += '<h3>Based on your responses, you’re an extrovert. You relish social life and are energized by interacting with friends and strangers alike. You’re assertive, go-getting, and able to seize the day. You’re great at thinking on your feet and relatively comfortable with conflict. Given the choice, you usually prefer more stimulating environments that give you frequent opportunities to see and speak with others. When you’re in quiet environments, you’re prone to feeling bored and restless. You’re actively engaged in the world around you and at your best when you tap into its energy. </h3>';
+        results.innerHTML += '<h3>Based on your responses, you’re an extrovert. You relish social life and are energized by interacting with friends and strangers alike. You’re assertive, go-getting, and able to seize the day. You’re great at thinking on your feet and relatively comfortable with conflict. Given the choice, you usually prefer more stimulating environments that give you frequent opportunities to see and speak with others. When you’re in quiet environments, you’re prone to feeling bored and restless. You’re actively engaged in the world around you and at your best when you tap into its energy.</h3>';
     } else {
         results.innerHTML += '<h3>Based on your responses, you are an introvert. Given the choice, you’ll devote your social energy to a small group of people you care about most, preferring a glass of wine with a close friend to a party full of strangers. You think before you speak, have a more deliberate approach to risk, and enjoy solitude. You feel energized when focusing deeply on a subject or activity that really interests you. When you’re in overly stimulating environments (too loud, too crowded, etc.) you tend to feel overwhelmed. You seek out environments of peace, sanctuary, and beauty; you have an active inner life and are at your best when you tap into its riches.</h3>';
     }
@@ -68,6 +68,25 @@ function displayResult() {
  var resultsContainer = document.getElementById('quizResults');
  resultsContainer.style.display = "block";
     
+    var answerNames = ["Disagree","Disagree","Disagree","Disagree","Disagree","Disagree","Disagree","Disagree","Disagree","Disagree"];
+    var userAnswers = [q1A,q2A,q3A,q3A,q4A,q5A,q6A,q7A,q8A,q9A,q10A];
+    
+    
+    var correctAnswerStatus = document.getElementsByClassName("correctAnswer");
+
+        for (i = 0; i < correctAnswerStatus.length; i++) {
+        
+            correctAnswerStatus[i].innerHTML += answerNames[i];
+        
+        }
+    
+    var userAnswerStatus = document.getElementsByClassName("userAnswer");
+
+        for (i = 0; i < userAnswerStatus.length; i++) {
+        
+            userAnswerStatus[i].innerHTML += userAnswers[i];
+        
+        }   
     
     document.getElementById("quizForm").style.display="none";
 }

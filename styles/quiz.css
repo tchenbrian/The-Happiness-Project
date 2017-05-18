@@ -14,11 +14,15 @@ p {
     text-decoration: none;
     margin-right:2em;
     text-align: left;
-    width: 900px;
+}
+
+#resultsHeader {
+    color: white;   
 }
 
 p.q {
     color: #333;
+    width: 1200px;
 }
 
 
@@ -47,7 +51,7 @@ a {
 .questionImage {
     margin-bottom: 15%;
     display: block;
-    width: 180%;
+    width: 80%;
 }
 
 #title {
@@ -61,11 +65,20 @@ a {
 #results {
     color: white;
     position: relative;
-    left: 50%;
+    left: 10%;
+    margin-top: 10%;
+    width: 70vw;
 }
 
 #resultsText {
     display: none;
+}
+
+#return {
+    position: relative;
+    margin-top: 20%;
+    left: 10%;
+    font-size: 2em;
 }
 
 #quizIntro {
@@ -85,6 +98,9 @@ a {
 
 #quizResults {
     display: none;
+    background-color:#13498a;   
+    width: 100vw;
+    padding: 5% 0;
 }
 
 #qArray {

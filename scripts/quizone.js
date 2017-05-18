@@ -26,7 +26,7 @@ function submitAnswers() {
   } */
   
   // Set correct answers
-  var answers = ["Object","Function","Variables","True or False","7","Hello James","32","2","bob.age","Parameters"];
+  var answers = ["Disagree","Function","Variables","True or False","7","Hello James","32","2","bob.age","Agrees"];
   
   for(var i = 1; i <= total; i++) {
     // Check answers
@@ -68,7 +68,7 @@ function displayResult() {
  var resultsContainer = document.getElementById('quizResults');
  resultsContainer.style.display = "block";
     
-    var answerNames = ["Object","Function","Variables","True","7","Hello James","32","2","bob.age","Parameters"];
+    var answerNames = ["Disagree","Function","Variables","True","7","Hello James","32","2","bob.age","Agrees"];
     var userAnswers = [q1A,q2A,q3A,q3A,q4A,q5A,q6A,q7A,q8A,q9A,q10A];
     
     
