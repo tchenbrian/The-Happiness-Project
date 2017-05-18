@@ -179,7 +179,7 @@ time {
     left: 38%;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1500px) {
     
     #adversity, #anxiety, #fear, #grades, #bodyImage {
     position: relative;
